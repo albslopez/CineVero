@@ -1,23 +1,36 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #120c49;
+  background-color: #2e523d;
 }
 
 .icono {
-  background-image: url("../assets/cine.png");
-  background-repeat: no-repeat;
-  background-position: 40px 40px;
-  background-size: 200px auto;
-
-  padding: 40px 70px; 
   text-align: left;
+  padding: 17px;
+}
+
+.icono img {
+  position:absolute;
+  left: 220px;
+  width: 70px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .icono h1 {
-  font-family: 'Six Caps', cursive;
-  color: white;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-family: 'Bebas Neue', cursive;
   font-size: 4rem;
-  text-shadow: 0 0 10px #FFFFDF, 0 0 30px #ffcc00;
   margin: 0;
+}
+
+.blanco {
+  color: white;
+}
+
+.luz {
+  color: white;
+  text-shadow: 0 0 10px #FFFFDF, 0 0 10px #ffcc00;
 }

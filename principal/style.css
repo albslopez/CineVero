@@ -9,55 +9,198 @@ body {
   color: white;
 }
 
+.top {
+  background-color: cornsilk; 
+  height: 8vmin;            
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .icon {
   display: flex;
   align-items: center;
-  padding-left: 15px;
-  padding-top: 15px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .icon img {
-  width: 60px;
+  width: 50px;
   margin-right: 10px;
 }
 
 .icon h1 {
   font-family: 'Bebas Neue', cursive;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   margin: 0;
 }
 
-.white {
+.buttons {
+  display: flex;
+  gap: 30px;
+  margin-right: 50px;
+  margin-top: -15px;
+}
+
+.btn {
+  background-color: #2e523d;
   color: cornsilk;
+  border: 4px solid #ffaa00;
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffaa00;
+  transform: translateY(-3px);
+}
+
+.btn1 {
+  font-size: 1.3rem;
+  padding: 6px 12px;
+}
+
+.btn2 {
+  font-size: 2rem;
+  padding: 12px 24px;
+}
+
+.green {
+  color: #2e523d;
 }
 
 .light {
   color: white;
-  text-shadow: 0 0 10px #FFFFDF, 0 0 10px #ffcc00;
+  text-shadow: 0 0 10px #ffff65, 0 0 10px #ffcc00;
 }
 
 .circle {
   position: absolute;
-  top: -30vmin;
+  top: -20vmin;
   left: 50%;
   transform: translateX(-50%);
-  width: 120vmin;
-  height: 120vmin;
+  width: 140vmin;
+  height: 140vmin;
   background-color: cornsilk;
   border-radius: 50%;
   z-index: -1;
 }
 
 .welcoming {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
   text-align: center;
-  margin-top: 80px;
-  padding: 0 20px;
+  position: relative;
 }
 
 .welcoming h2 {
-  font-size: 2rem;
-  max-width: 600px;
-  margin: 0 auto 30px;
-  line-height: 1.5;
-  white-space: nowrap;
+  font-size: 3rem;
+  max-width: 1500px;
+  margin: -80px auto 30px;
+  white-space: normal;
+  color: #2e523d;
 }
+
+.welcoming p.intro {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  color: #2e523d;
+  max-width: 800px;
+  line-height: 1.5;
+  margin: -20px auto 0;
+  text-align: center;
+}
+
+.posters {
+  position: relative;
+  top: -150px;
+  width: 200px; 
+  height: 350px; 
+  margin: 0 auto;
+}
+
+.poster {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.poster1 {
+  z-index: 5;
+  transform: rotate(-30deg) translateX(-240px); 
+}
+
+.poster2 {
+  z-index: 4;
+  transform: rotate(-15deg) translateX(-120px); 
+}
+
+.poster3 {
+  z-index: 3;
+  transform: rotate(0deg) translateX(0px);
+}
+
+.poster4 {
+  z-index: 2;
+  transform: rotate(15deg) translateX(120px); 
+}
+
+.poster5 {
+  z-index: 1;
+  transform: rotate(30deg) translateX(240px); 
+}
+
+.poster1:hover{
+  z-index: 5;
+  transform: rotate(-30deg) translateX(-240px) translateY(-60px); 
+}
+
+.poster2:hover {
+  z-index: 5;
+  transform: rotate(-15deg) translateX(-120px) translateY(-60px); 
+}
+
+.poster3:hover {
+  z-index: 5;
+  transform: rotate(0deg) translateX(0px) translateY(-60px); 
+}
+
+.poster4:hover {
+  z-index: 5;
+  transform: rotate(15deg) translateX(120px) translateY(-60px);  
+}
+
+.poster5:hover {
+  z-index: 5;
+  transform: rotate(30deg) translateX(240px) translateY(-60px); 
+}
+
+.subscription {
+  background-color: cornsilk;
+  margin-top: -8vmin;
+  padding: 20vmin 2rem 4rem; 
+  text-align: center;
+  position: relative;
+}
+
+.subscription h3 {
+  color: #2e523d;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+
+

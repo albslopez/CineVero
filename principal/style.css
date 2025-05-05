@@ -4,33 +4,45 @@ body {
   background-color: #2e523d;
 }
 
-.icono {
+.icon {
   text-align: left;
-  padding: 17px;
+  padding: 20px;
 }
 
-.icono img {
+.icon img {
   position:absolute;
-  left: 220px;
-  width: 70px;
+  left: 200px;
+  width: 60px;
   height: auto;
   margin-bottom: 10px;
 }
 
-.icono h1 {
+.icon h1 {
   position: absolute;
   top: 25px;
   left: 25px;
   font-family: 'Bebas Neue', cursive;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 0;
 }
 
-.blanco {
+.white {
   color: white;
 }
 
-.luz {
+.light {
   color: white;
   text-shadow: 0 0 10px #FFFFDF, 0 0 10px #ffcc00;
+}
+
+.welcoming {
+  text-align: center;
+  color: white;
+  padding: 20px;  
+}
+
+.welcoming h2 {
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 3rem;
+  margin: 0;
 }

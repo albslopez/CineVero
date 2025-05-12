@@ -192,7 +192,7 @@ body {
 .subscription {
   background-color: cornsilk;
   margin-top: -8vmin;
-  padding: 10vmin 2rem 4rem; 
+  padding: 20vmin 2rem 18rem; 
   text-align: center;
   position: relative;
 }
@@ -200,6 +200,7 @@ body {
 .subscription h3 {
   color: #2e523d;
   font-size: 3rem;
+  margin-top: -2rem;
   margin-bottom: 1rem;
 }
 
@@ -232,6 +233,10 @@ body {
   background-color: #ffaa00;
 }
 
+.plan:hover .plan-header h4 {
+  color: #2e523d;
+}
+
 .plan-header {
   background-color: #2e523d;
   height: 25%;
@@ -254,40 +259,62 @@ body {
 
 .footer {
   background-color: black;
-  text-align: center;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
 
-.footer-columns {
+.footer-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 3rem;
+  justify-content: space-between;
+  align-items: flex-start;  
   margin-bottom: 2rem;
 }
 
-.footer .column h4 {
-  color: #f8f8f8;
-  margin-bottom: 1rem;
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 0 1rem;
 }
 
-.footer .column li {
-  margin: 0.4rem 0;
+.footer-column h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 .footer .column a:hover {
   color: #ffffff;
 }
 
-.footer-social {
-  margin: 2rem 0;
+
+.footer-logo {
+  text-align: right;
+}
+
+.footer-logo img {
+  width: 100px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .footer-social a {
-  margin: 0 10px;
-  display: inline-block;
+  margin: 0 0.5rem;
 }
 
 .footer-social img {
@@ -301,13 +328,11 @@ body {
   transform: scale(1.2);
 }
 
-.footer-logo img {
-  width: 120px;
-  margin: 1.5rem 0;
-}
-
-.footer-copy {
-  font-size: 0.85rem;
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: white;
 }
 
 .nav-item {

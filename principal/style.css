@@ -112,7 +112,7 @@ body {
   color: #2e523d;
 }
 
-.welcoming p.intro {
+.welcoming p {
   font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
   color: #2e523d;
@@ -192,7 +192,7 @@ body {
 .subscription {
   background-color: cornsilk;
   margin-top: -8vmin;
-  padding: 20vmin 2rem 4rem; 
+  padding: 10vmin 2rem 4rem; 
   text-align: center;
   position: relative;
 }
@@ -201,6 +201,113 @@ body {
   color: #2e523d;
   font-size: 3rem;
   margin-bottom: 1rem;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+
+.plan {
+  width: 400px;
+  height: 500px;
+  border: 6px solid #2e523d;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.plan:hover {
+  transform: translateY(-6px);
+  border-color: #ffaa00;
+}
+
+.plan:hover .plan-header {
+  background-color: #ffaa00;
+}
+
+.plan-header {
+  background-color: #2e523d;
+  height: 25%;
+  min-height: 80px;
+}
+
+.plan-header h4 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.plan-body {
+  padding: 1.5rem;
+  text-align: center;
+  color: #2e523d;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 4rem 2rem;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.footer .column h4 {
+  color: #f8f8f8;
+  margin-bottom: 1rem;
+}
+
+.footer .column li {
+  margin: 0.4rem 0;
+}
+
+.footer .column a:hover {
+  color: #ffffff;
+}
+
+.footer-social {
+  margin: 2rem 0;
+}
+
+.footer-social a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+  filter: invert(80%);
+  transition: transform 0.2s ease;
+}
+
+.footer-social img:hover {
+  transform: scale(1.2);
+}
+
+.footer-logo img {
+  width: 120px;
+  margin: 1.5rem 0;
+}
+
+.footer-copy {
+  font-size: 0.85rem;
 }
 
 .nav-item {
@@ -227,7 +334,7 @@ body {
 .login-form {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Espacio entre campos */
+  gap: 10px;
 }
 
 .icon-login {

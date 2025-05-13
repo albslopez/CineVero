@@ -1,0 +1,125 @@
+@import url('style.css');
+
+
+.borders {
+    position: absolute;
+  left: 50%;
+  width: 120vmin;
+  transform: translateX(-50%);
+  height: 140vmin;
+  background-color: cornsilk;
+  z-index: -1;
+}
+
+.title {
+    font-size: larger;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.film {
+    margin-left: 50px;
+    border-color: #2e523d;
+    color: #2e523d;
+}
+
+.review-forum {
+    padding: 40px 2rem 4rem;
+    background-color: cornsilk;
+    color: #2e523d;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 8rem;
+}
+  
+.review-forum h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+  
+.reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+  
+.review {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #fefbf0;
+    border: 2px solid #2e523d;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.review:hover {
+    transform: translateY(-4px);
+}
+  
+.review-image img {
+    width: 170px;
+    height: auto;
+    border-radius: 5px;
+}
+  
+.review-content {
+    flex: 1;
+}
+  
+.review-content h4 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+  
+.review-content p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 0;
+    margin-top: -5px;
+    margin-left: 0px;
+}
+
+
+.stars {
+    display: flex;
+    gap: 5px;
+}
+  
+.star {
+    font-size: 2rem;
+    color: #d3d3d3; 
+    transition: color 0.3s ease;
+}
+  
+.star.filled {
+    color: #ffaa00;
+}
+.year{
+    padding-left: 20px;
+    padding-top: 22px;
+}
+
+.dir-gen{
+    display: flex;
+    color: #132f5a;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+.dir-gen p {
+    padding-right: 50px;
+}
+
+.sinopsis {
+    max-width: 700px;
+}
+  

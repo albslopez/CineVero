@@ -1,19 +1,29 @@
 @import url("../principal/style.css");
 
-body {
-    background-color: cornsilk;
-}
-
 .borders {
-    position: absolute;
+    position: relative;
     left: 50%;
     width: 120vmin;
     transform: translateX(-50%);
     height: 140vmin;
     background-color: cornsilk;
     z-index: -1;
+    padding-top: 10vmin;
 }
-  
+
+.title {
+    font-size: 1.6rem;
+    text-align: center;
+    color: #2e523d;
+    margin-top: -5vmin;
+}
+
+.review-forum {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+    margin-top: 5vmin;
+}
 
 .review-box {
     display: flex;
@@ -23,7 +33,7 @@ body {
     margin-bottom: 30px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-  
+
 .user-avatar {
     width: 60px;
     height: 60px;
@@ -37,11 +47,11 @@ body {
 }
   
 .username {
-    font-weight: bold;
     font-size: 1rem;
-    color: #2e523d;
+    color: black;
     display: block;
     margin-bottom: 6px;
+    font-family: 'Oswald', sans-serif;
 }
   
 .review-content h4 {
@@ -53,7 +63,9 @@ body {
 .review-content p {
     margin: 0;
     text-align: justify;
-    color: #333;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 20px;
 }
   
 .stars {
@@ -64,7 +76,7 @@ body {
   
 .divider {
     border: none;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #2e523d;
     margin: 20px 0;
 }
   

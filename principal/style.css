@@ -260,6 +260,7 @@ body {
 }
 
 .footer {
+  margin-top: auto;
   background-color: rgb(42, 42, 42);
   padding: 2rem 2rem;
   font-family: 'Oswald', sans-serif;

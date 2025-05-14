@@ -101,6 +101,7 @@
 }
   
 .star {
+    cursor: pointer;
     font-size: 2rem;
     color: #d3d3d3; 
     transition: color 0.3s ease;

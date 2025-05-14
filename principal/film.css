@@ -129,9 +129,6 @@
     font-style: italic;
 }
 
-.comment-button {
-    
-}
 
 .comment-send{
     margin-top: -20px;
@@ -139,6 +136,30 @@
     justify-content: space-between;
     margin-bottom: 100px;
 }
+
+.stars {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: flex-start;
+}
+
+.stars span:hover,
+  .stars span:hover ~ span {
+    color: gold;
+  }
+
+.star.selected {
+    color:gold;
+}
+
+.valorazione-text {
+    color: #2e523d;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top:20px;
+    margin-right: 20px;
+}
+
 
 
 

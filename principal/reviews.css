@@ -1,14 +1,15 @@
 @import url("../principal/style.css");
 
 .borders {
-    position: relative;
-    left: 50%;
-    width: 120vmin;
-    transform: translateX(-50%);
-    height: 140vmin;
-    background-color: cornsilk;
-    z-index: -1;
-    padding-top: 10vmin;
+    position: absolute;
+  left: 50%;
+  width: 120vmin;
+  transform: translateX(-50%);
+  background-color: cornsilk;
+  border-left: 1px solid rgb(15, 51, 15);
+  border-right: 1px solid rgb(15, 51, 15);
+  z-index: -1;
+  color: #2e523d;
 }
 
 .title {

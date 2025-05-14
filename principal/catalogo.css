@@ -6,24 +6,29 @@
   left: 50%;
   width: 120vmin;
   transform: translateX(-50%);
-  height: 140vmin;
   background-color: cornsilk;
+  border-left: 1px solid rgb(15, 51, 15);
+  border-right: 1px solid rgb(15, 51, 15);
   z-index: -1;
+  color: #2e523d;
 }
 
 .title {
     font-size: larger;
-    margin-top: 150px;
+    margin-top: 120px;
     margin-left: 100px;
+    margin-bottom: -20px;
 }
 
 .film {
-    margin-left: 50px;
+    margin-left: 0px;
     border-color: #2e523d;
     color: #2e523d;
+    display: flex;
+    
 }
 
-.review-forum {
+.film-forum {
     padding: 40px 2rem 4rem;
     background-color: cornsilk;
     color: #2e523d;
@@ -32,20 +37,20 @@
     margin-bottom: 8rem;
 }
   
-.review-forum h3 {
+.film-forum h3 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
   
-.reviews-list {
+.films-list {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    max-width: 1000px;
+    max-width: 1050px;
     margin: 0 auto;
 }
   
-.review {
+.film {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -58,27 +63,27 @@
     transition: transform 0.2s ease;
 }
 
-.review:hover {
+.film:hover {
     transform: translateY(-4px);
 }
   
-.review-image img {
-    width: 170px;
+.film-image img {
+    width: 120px;
     height: auto;
     border-radius: 5px;
 }
   
-.review-content {
+.film-content {
     flex: 1;
 }
   
-.review-content h4 {
+.film-content h4 {
     font-size: 2rem;
     margin-bottom: 10px;
     margin-top: 0px;
 }
   
-.review-content p {
+.film-content p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: 1rem;
@@ -120,6 +125,64 @@
 }
 
 .sinopsis {
-    max-width: 700px;
+    max-width: 600px;
 }
+
+.mark {
+    margin-top: -5px;
+    margin-left: 30px;
+    font-family:serif;
+}
+
+.reviews {
+    margin-left: 150px;
+    margin-top: 20px;
+    color: #0e6d85;
+    text-decoration: underline;
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn3 {
+    background-color: #102749;
+    font-size: 1rem;
+    width: 90px;
+}
+
+.btn3:hover {
+    background-color: #442121;
+    color:#ffaa00;
+    transform: translateY(0px);
+}
+
+.btn4 {
+    background-color: #ffaa00;
+    color: #2e523d;
+    width: 90px;
+}
+
+.btn4:hover {
+    background-color: #2e523d;
+    color:#ffaa00;
+    transform: translateY(0px);
+}
+
+.noleggio {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.noleggio p{
+    margin-right: 20px;
+    margin-top: 40px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+
+
+
   

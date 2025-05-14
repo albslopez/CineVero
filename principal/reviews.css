@@ -45,14 +45,26 @@
 .review-content {
     flex: 1;
 }
+
+.review-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
   
 .username {
     font-size: 1rem;
     color: black;
     display: block;
-    margin-bottom: 6px;
     font-family: 'Oswald', sans-serif;
 }
+
+.review-date {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    color: gray;
+  }
   
 .review-content h4 {
     margin: 0 0 6px;

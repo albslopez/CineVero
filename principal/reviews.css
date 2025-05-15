@@ -1,27 +1,19 @@
-@import url("../principal/style.css");
+@import url("style.css");
 
-.borders {
-    position: absolute;
-  left: 50%;
-  width: 120vmin;
-  transform: translateX(-50%);
-  background-color: cornsilk;
-  border-left: 1px solid rgb(15, 51, 15);
-  border-right: 1px solid rgb(15, 51, 15);
-  z-index: -1;
-  color: #2e523d;
-}
+
+
 
 .title {
     font-size: 1.6rem;
     text-align: center;
-    color: #2e523d;
-    margin-top: -5vmin;
+    color: cornsilk;
+    padding-top: 100px;
 }
 
 .review-forum {
     max-width: 1000px;
     margin: 60px auto;
+    margin-bottom: 0;
     padding: 0 20px;
     margin-top: 5vmin;
 }

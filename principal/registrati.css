@@ -1,10 +1,28 @@
 @import url('login.css');
 
+.borders {
+  background-color: cornsilk;
+  color: #2e523d;
+  margin: 0 350px;
+  box-shadow: 0 2px 32px rgb(255, 255, 255);
+  height:1000px;
+}
+
+.icon {
+  text-align: left;
+  border-bottom: 1px solid #2e523d;
+  padding-bottom: 0px;
+  margin-bottom: 50px;
+  padding-left: 100px;
+}
 .icon  p{
-    font-size: 1.7rem;
+    font-size: 2.5rem;
+    font-family: 'Anton', sans-serif;
+    
 }
 
 .icon img {
+    margin-top: -10px;
     margin-left: 20px;
     width: 50px;
     margin-right: 10px;
@@ -12,15 +30,27 @@
   
   .icon h1 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 0;
+    margin-top: -10px;
+  }
+
+  .green{
+    color:#2e523d;
+  }
+
+  .welcoming-register{
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
 
 
 .form {
+  
     display:flex;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 50px;
+    padding-left: 100px;
 }
 
 .column {
@@ -33,21 +63,38 @@
 label {
     padding-bottom: 32px;
     padding-top: 10px;
+    padding-left: 50px;
 }
 button {
+   margin-left: 900px;
     text-align: center;
 }
+.btn1 {
+  font-size: large;
+  padding: 10px 20px;
+  font-style: italic;
+}
 .spaces {
-    width: 120%;
+    width: 60%;
+}
+
+.plan-title {
+  padding-top: 50px;
+  text-align: center;
+  font-size: larger;
+  
 }
 
 .plans {
     display: flex;
     justify-content: center;
+    text-align: center;
     gap: 8rem;
     margin-top: 3rem;
     flex-wrap: wrap;
   }
+
+
 
 .plan {
     width: 200px;

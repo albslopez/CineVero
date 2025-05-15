@@ -1,21 +1,11 @@
 @import url('style.css');
 
 
-.borders {
-    position: absolute;
-  left: 50%;
-  width: 120vmin;
-  transform: translateX(-50%);
-  background-color: cornsilk;
-  border-left: 1px solid rgb(15, 51, 15);
-  border-right: 1px solid rgb(15, 51, 15);
-  z-index: -1;
-  color: #2e523d;
-}
+
 
 .title {
     font-size: larger;
-    margin-top: 120px;
+    padding-top: 120px;
     margin-left: 100px;
     margin-bottom: -20px;
 }
@@ -30,7 +20,8 @@
 
 .film-forum {
     padding: 40px 2rem 4rem;
-    background-color: cornsilk;
+    background-color: #001609;
+    border-top: 1px solid cornsilk;
     color: #2e523d;
     text-align: center;
     font-family: 'Oswald', sans-serif;
@@ -54,7 +45,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    background-color: #fefbf0;
+    background-color: cornsilk;
     border: 2px solid #2e523d;
     border-radius: 15px;
     padding: 30px;
@@ -149,6 +140,7 @@
 }
 .btn3 {
     background-color: #102749;
+    color:#ffaa00;
     font-size: 1rem;
     width: 90px;
 }

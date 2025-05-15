@@ -2,6 +2,13 @@
 @import url('catalogo.css');
 
 
+.borders {
+    background-color: cornsilk;
+    color: #2e523d;
+    margin: 0 350px;
+    box-shadow: 0 2px 32px rgb(255, 255, 255);
+}
+
 
 .image {
     padding: 0px 20px;
@@ -50,9 +57,9 @@
 }
 
 .valorazione {
-    position: fixed;
-    top: 730px;     
-    right: 120px;    
+    position:absolute;  
+    top: 700px; 
+    right: 450px;
     background-color: #719b83;
     color: rgb(255, 166, 0);
     border: 1px solid rgb(255, 166, 0);
@@ -158,6 +165,11 @@
     font-weight: bold;
     margin-top:20px;
     margin-right: 20px;
+}
+
+.btn5 {
+    background-color: #2e523d;
+    color: cornsilk;
 }
 
 

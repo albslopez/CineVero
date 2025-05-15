@@ -1,0 +1,10 @@
+@import url('registrati.css');
+
+.btn1 {
+    display: block;
+    margin: 30px auto; 
+    font-size: 1.6rem;
+    padding: 20px;
+    margin-top: -10vmin;
+    font-style: normal;
+}

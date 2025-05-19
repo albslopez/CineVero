@@ -1,0 +1,62 @@
+@import url('style.css');
+
+.welcoming h2 {
+  font-size: 2.8rem;
+  margin: 100px auto 40px;
+}
+
+.plans {
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.plan {
+    width: 300px;
+    height: 300px;
+    border: 6px solid #7eb89c;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease; 
+    cursor: pointer
+}
+
+.plan.selected .plan-header {
+    background-color: #ffaa00;
+}
+
+.plan.selected .plan-header h4 {
+    color: #2e523d;
+}
+
+.plan.selected {
+    width: 300px;
+    height: 300px;
+    border: 6px solid #ffaa00;
+}
+
+.plan-header {
+    min-height: 120px;
+}
+  
+.plan-header h4 {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+  
+.plan-body {
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.btn1 {
+    background-color: #2e523d;
+    color: white;
+    font-size: 2rem;
+    margin-top: 40px;
+}
+

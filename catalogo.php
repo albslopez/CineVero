@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineVero</title>
+
+  <link rel="stylesheet" href="./css/catalogo.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<?php include 'include/header.php'; ?>
+
+
+    <div class="buttons">
+      <button class="btn btn1">Registrati</button>
+      <button class="btn btn1">Accedi</button>
+    </div>
+
+  </div>
+  
+  <div class="borders">
+    
+    <div class="title green">
+        <h1>
+            Catalogo di film
+        </h1>
+    </div>
+    <section class="film-forum">
+        
+    
+        <div class="films-list" id ="filmsList">
+          <div class="film">
+            <div class="film-image">
+              <img src="../assets/pulpfiction.jpg" alt="Pulp Fiction" />
+            </div>
+            <div class="film-content">
+                <div style="display: flex;">
+                    <h4>Pulp Fiction </h4> <p class="year"> 2008</p>
+                </div>
+              <div class="dir-gen">
+                <p>
+                    Quentin Tarantino
+                  </p>
+                  <p>
+                    Suspense
+                  </p>
+              </div>
+              <div class="sinopsis">
+                <p>
+                    Un film commovente e profondamente umano. Roberto Benigni riesce a raccontare l'orrore dell'Olocausto con una delicatezza straordinaria, 
+                  mescolando comicità e tragedia in modo unico. 
+                  </p>
+              </div>
+              
+              
+              <div class="stars" data-rating="4">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="mark"><h2>4,5</h2></span>
+                <span class="reviews"><p>Vedi i valorazioni</p></span>
+              </div>
+            </div>
+            <div class="column">
+              <div class="noleggio">
+                <p> 4,99€/3 gio</p>
+                <button class="btn btn1 btn3">Noleggiare</button>
+              </div>
+              <div class="noleggio">
+                <p> 15,99€</p>
+                <button class="btn btn1 btn4">Acquisitare</button>
+              </div>
+              
+            </div>
+
+          </div>
+    
+          <div class="film">
+            <div class="film-image">
+              <img src="../assets/life.jpg" alt="Life is beautiful" />
+            </div>
+            <div class="film-content">
+              <h4>La vita è bella </h4>
+              <p>Un film commovente e profondamente umano. Roberto Benigni riesce a raccontare l'orrore dell'Olocausto con una delicatezza straordinaria, 
+              mescolando comicità e tragedia in modo unico. È una celebrazione dell'amore, della speranza e della forza dello spirito umano anche nei momenti più bui.</p>
+              <div class="stars" data-rating="5">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+              </div>
+            </div>
+          </div>
+    
+          <div class="film">
+            <div class="film-image">
+              <img src="../assets/matrix.jpg" alt="Matrix" />
+            </div>
+            <div class="film-content">
+              <h4>Matrix - di Alessio</h4>
+              <p>Un'esperienza cinematografica rivoluzionaria. Matrix combina azione mozzafiato, filosofia profonda e effetti visivi all’avanguardia. 
+              Il concetto della realtà simulata è affascinante e attuale, e Keanu Reeves è perfetto nel ruolo di Neo. Un film che ha lasciato un segno indelebile nella cultura pop.</p>
+              <div class="stars" data-rating="4">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+              </div>
+            </div>
+          </div>
+      </section>
+  </div>
+  <?php include 'include/footer.php'; ?>
+
+  
+
+</body>
+</html>

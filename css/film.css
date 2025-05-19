@@ -1,0 +1,182 @@
+@import url('reviews.css');
+@import url('catalogo.css');
+
+
+.borders {
+    background-color: cornsilk;
+    color: #2e523d;
+    margin: 0 350px;
+    box-shadow: 0 2px 32px rgb(255, 255, 255);
+}
+
+
+.image {
+    padding: 0px 20px;
+    margin-top: 100px;
+    border-right: 1px solid black;
+}
+
+.section{
+    margin-left: 30px;
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 550px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.section-title {
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+}
+.section-title h1 {
+    margin-bottom: 0;
+}
+
+.genres {
+    display: flex;
+    gap: 30px;
+}
+
+.genre {
+    background-color: #ffffff;
+    color: rgb(105, 105, 105);
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    font-size: 1rem;
+    font-family: serif;
+    padding:10px;
+  }
+
+.genre:hover {
+    background-color: rgb(105, 105, 105);
+    color: #ffffff;
+}
+
+.valorazione {
+    position:absolute;  
+    top: 700px; 
+    right: 450px;
+    background-color: #719b83;
+    color: rgb(255, 166, 0);
+    border: 1px solid rgb(255, 166, 0);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+    font-size: 1.5rem;
+    font-family: serif;
+    padding:10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.valorazione:hover{
+    color:#719b83;
+    background-color: rgb(248, 205, 125);
+}
+
+.film-noleggio {
+    display:flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.514);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.507);
+    width: 1100px;
+    height: 70px;
+    margin: 20px;
+    align-items: center;
+}
+
+.film-noleggio p{
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.noleggio-button {
+    display: flex;
+    gap:40px;
+}
+.noleggio-button span {
+    margin-top: -20px;
+}
+
+.noleggio-button button{
+    width: 140px;
+    height:50px;
+}
+
+.film-sell
+{
+    border-top: 0px;
+    margin-top: -20px;
+}
+
+.review-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.review-box {
+    display: flex;
+    background-color: rgb(250, 246, 230);
+    border-radius: 12px;
+    border:1px solid rgb(8, 39, 8);
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comment-section {
+    height: 150px;
+    width:900px;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+}
+
+
+.comment-send{
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: flex-start;
+}
+
+.stars span:hover,
+  .stars span:hover ~ span {
+    color: gold;
+  }
+
+.star.selected {
+    color:gold;
+}
+
+.valorazione-text {
+    color: #2e523d;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top:20px;
+    margin-right: 20px;
+}
+
+.btn5 {
+    background-color: #2e523d;
+    color: cornsilk;
+}
+
+
+
+
+
+
+
+
+  

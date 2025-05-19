@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineVero</title>
+
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="./css/login.css">
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body >
+
+    <!--<div class="top"></div>-->
+    <div class="circle"></div>
+  
+  <section class="welcoming welcoming-login">
+    <div class="icon">
+        <img src="../assets/cinema.png" alt="cinema icon" />
+        <h1><span class="green">Cine</span><span class="light">Vero</span></h1>
+    </div>
+  <form class="login-form">
+  <input type="text" id="usuario" name="usuario" class="spaces" placeholder="User/email">
+
+  <input type="password" id="clave" name="clave" class="spaces" placeholder="Password">
+  <label p>
+    <input type="checkbox" name="remember">
+    Remember me
+  </label>
+  
+
+  <button type="submit" class="btn btn1">Iniciar sesión</button>
+</form>
+
+  <!--</section>
+  <section class="subscription login-bot">
+  </section>-->
+
+  
+
+</body>
+</html>
